@@ -1,0 +1,26 @@
+.banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .title {
+        font-weight: bold;
+        letter-spacing: 2px;
+
+        span {
+            color: $orange;
+        }
+    }
+
+    .text {
+        margin-top: 25px;
+        margin-bottom: 35px;
+        font-size: 22px;
+        color: $gray-600;
+    }
+
+    .btn-book {
+        padding: 20px 30px;
+        background-color: $black;
+        border-radius: 0;
+    }
+}
