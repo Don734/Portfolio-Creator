@@ -2,18 +2,19 @@ footer {
     .top {
         padding-top: 100px;
         padding-bottom: 100px;
-        background-color: $black;
+        background-color: $gray-100;
 
         .navbar-brand {
-            font-size: 24px;
-            color: $white;
+            font-size: 32px;
+            font-weight: bold;
+            color: $black;
         }
 
         .subtitle {
             position: relative;
             font-weight: bold;
             font-size: 24px;
-            color: $white;
+            color: $black;
 
             &::after {
                 content: '';
@@ -30,7 +31,7 @@ footer {
             padding-top: 25px;
             margin-bottom: 15px;
             font-size: 16px;
-            color: $white;
+            color: $black;
         }
 
         .footer-info, .btn-group {
@@ -42,12 +43,12 @@ footer {
 
             .icon {
                 padding-right: 15px;
-                color: $white;
+                color: $black;
             }
 
             small {
                 a {
-                    color: $white;
+                    color: $black;
                 }
             }
         }
@@ -60,8 +61,8 @@ footer {
             width: 100%;
             height: 40px;
             margin: 0 5px;
-            color: $white;
-            border: 1px solid $white;
+            color: $black;
+            border: 1px solid $black;
             border-radius: 5px !important;
 
             &:hover {
@@ -83,7 +84,7 @@ footer {
         p {
             font-weight: bold;
             font-size: 16px;
-            color: $white;
+            color: $black;
         }
     }
 }

@@ -11972,20 +11972,47 @@ header .navbar .nav-list .nav-item:last-of-type {
   border-radius: 10px;
 }
 
+.services .row {
+  margin-top: 110px;
+}
+.services .row .col .col-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.services .row .col .col-text {
+  margin: 25px 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: #adb5bd;
+}
+.services .row .col .list-group {
+  list-style: square;
+}
+.services .row .col .list-group .list-group-item {
+  padding-left: 0;
+  font-weight: bold;
+  border: none;
+}
+
+.projects .swiper-projects .swiper-slide .card {
+  width: 100%;
+}
+
 footer .top {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #000;
+  background-color: #f8f9fa;
 }
 footer .top .navbar-brand {
-  font-size: 24px;
-  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
 }
 footer .top .subtitle {
   position: relative;
   font-weight: bold;
   font-size: 24px;
-  color: #fff;
+  color: #000;
 }
 footer .top .subtitle::after {
   content: "";
@@ -12000,7 +12027,7 @@ footer .top .text {
   padding-top: 25px;
   margin-bottom: 15px;
   font-size: 16px;
-  color: #fff;
+  color: #000;
 }
 footer .top .footer-info, footer .top .btn-group {
   padding-top: 45px;
@@ -12010,10 +12037,10 @@ footer .top .footer-info {
 }
 footer .top .footer-info .icon {
   padding-right: 15px;
-  color: #fff;
+  color: #000;
 }
 footer .top .footer-info small a, footer .top .footer-info .small a {
-  color: #fff;
+  color: #000;
 }
 footer .top .btn-link {
   display: flex;
@@ -12023,8 +12050,8 @@ footer .top .btn-link {
   width: 100%;
   height: 40px;
   margin: 0 5px;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #000;
+  border: 1px solid #000;
   border-radius: 5px !important;
 }
 footer .top .btn-link:hover {
@@ -12042,7 +12069,7 @@ footer .copyright {
 footer .copyright p {
   font-weight: bold;
   font-size: 16px;
-  color: #fff;
+  color: #000;
 }
 
 /*# sourceMappingURL=main.css.map */
