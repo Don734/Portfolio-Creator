@@ -11926,6 +11926,9 @@ header .navbar .nav-list {
 header .navbar .nav-list .nav-item {
   margin: 0 20px;
 }
+header .navbar .nav-list .nav-item .nav-link {
+  letter-spacing: 2px;
+}
 header .navbar .nav-list .nav-item:last-of-type {
   margin-right: 0;
 }
@@ -11933,8 +11936,10 @@ header .navbar .nav-list .nav-item:last-of-type {
 .banner {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: #f8f9fa;
 }
 .banner .title {
+  font-size: 72px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -11947,10 +11952,24 @@ header .navbar .nav-list .nav-item:last-of-type {
   font-size: 22px;
   color: #6c757d;
 }
+.banner .img-block {
+  max-width: 512px;
+  width: 100%;
+  height: 512px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.banner .img-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .banner .btn-book {
-  padding: 20px 30px;
-  background-color: #000;
-  border-radius: 0;
+  padding: 15px 25px;
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #adb5bd;
+  border-radius: 10px;
 }
 
 footer .top {
@@ -11979,6 +11998,7 @@ footer .top .subtitle::after {
 }
 footer .top .text {
   padding-top: 25px;
+  margin-bottom: 15px;
   font-size: 16px;
   color: #fff;
 }

@@ -23,6 +23,10 @@ header {
             .nav-item {
                 margin: 0 20px;
 
+                .nav-link {
+                    letter-spacing: 2px;
+                }
+
                 &:last-of-type {
                     margin-right: 0;
                 }
