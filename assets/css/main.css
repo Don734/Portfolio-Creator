@@ -11994,11 +11994,67 @@ header .navbar .nav-list .nav-item:last-of-type {
   border: none;
 }
 
+.projects {
+  padding-bottom: 0;
+}
+.projects .swiper-projects .swiper-wrapper {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
 .projects .swiper-projects .swiper-slide .card {
   width: 100%;
 }
+.projects .swiper-projects .swiper-slide .card img {
+  height: 220px;
+}
+.projects .swiper-projects .swiper-slide .card .card-body .card-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+.projects .swiper-projects .swiper-slide .card .card-body .btn {
+  padding-left: 0;
+  font-size: 18px;
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+}
+.projects .swiper-projects .swiper-pagination {
+  top: 0;
+}
+.projects .swiper-projects .swiper-button-wrap {
+  position: absolute;
+  right: 60px;
+  bottom: 40px;
+  display: flex;
+}
+.projects .swiper-projects .swiper-button-wrap .swiper-button-prev, .projects .swiper-projects .swiper-button-wrap .swiper-button-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.projects .swiper-projects .swiper-button-wrap .swiper-button-prev .icon, .projects .swiper-projects .swiper-button-wrap .swiper-button-next .icon {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+.projects .swiper-projects .swiper-button-wrap .swiper-button-prev::after, .projects .swiper-projects .swiper-button-wrap .swiper-button-next::after {
+  display: none;
+}
+.projects .swiper-projects .swiper-button-wrap .swiper-button-prev {
+  left: auto;
+  right: 5px;
+}
+.projects .swiper-projects .swiper-button-wrap .swiper-button-next {
+  right: auto;
+  left: 5px;
+}
 
 footer .top {
+  margin-top: -80px;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #f8f9fa;
