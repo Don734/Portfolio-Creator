@@ -12006,6 +12006,7 @@ header .navbar .nav-list .nav-item:last-of-type {
 }
 .projects .swiper-projects .swiper-slide .card img {
   height: 220px;
+  object-fit: cover;
 }
 .projects .swiper-projects .swiper-slide .card .card-body .card-title {
   font-size: 26px;
