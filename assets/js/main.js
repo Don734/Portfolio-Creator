@@ -5,9 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 function projectSlider() {
     let swiperContainer = '.swiper-projects';
     let swiperOptions = {
-        pagination: {
-            el: '.swiper-pagination',
-        },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
