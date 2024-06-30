@@ -12004,17 +12004,20 @@ header .navbar .nav-list .nav-item:last-of-type {
 .projects .swiper-projects .swiper-slide .card {
   width: 100%;
 }
-.projects .swiper-projects .swiper-slide .card img {
+.projects .swiper-projects .swiper-slide .card .card-image {
+  background-color: #f2f2f2;
+}
+.projects .swiper-projects .swiper-slide .card .card-image img {
   height: 220px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .projects .swiper-projects .swiper-slide .card .card-body .card-title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
 }
 .projects .swiper-projects .swiper-slide .card .card-body .btn {
   padding-left: 0;
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   background-color: transparent;
   border-color: transparent;

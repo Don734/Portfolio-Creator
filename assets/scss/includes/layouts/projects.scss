@@ -11,20 +11,24 @@
             .card {
                 width: 100%;
 
-                img {
-                    height: 220px;
-                    object-fit: cover;
+                .card-image {
+                    background-color: $custom-gray;
+
+                    img {
+                        height: 220px;
+                        object-fit: contain;
+                    }
                 }
                 
                 .card-body {
                     .card-title {
-                        font-size: 26px;
+                        font-size: 24px;
                         font-weight: bold;
                     }
 
                     .btn {
                         padding-left: 0;
-                        font-size: 18px;
+                        font-size: 16px;
                         color: $black;
                         background-color: transparent;
                         border-color: transparent;
