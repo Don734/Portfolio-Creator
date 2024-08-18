@@ -1,20 +1,12 @@
 header {
-    .bar {
-        height: 40px;
-        background-color: $black;
-
-        .nav {
-            .nav-item {
-                .nav-link {
-                    color: $white;
-                }
-            }
-        }
-    }
-
     .navbar {
-        .navbar-brand {
+        .brand {
             font-size: 24px;
+            font-weight: bold;
+
+            span {
+                color: $danger;
+            }
         }
 
         .nav-list {
@@ -24,7 +16,13 @@ header {
                 margin: 0 20px;
 
                 .nav-link {
-                    letter-spacing: 2px;
+                    font-size: 16px;
+                }
+
+                .nav-call {
+                    .icon {
+                        font-size: 20px;
+                    }
                 }
 
                 &:last-of-type {

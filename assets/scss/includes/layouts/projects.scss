@@ -1,40 +1,60 @@
 .projects {
-    padding-bottom: 0;
-    
-    .swiper-projects {
-        .swiper-wrapper {
-            padding-top: 30px;
-            padding-bottom: 100px;
+    .row {
+        margin-top: 65px;
+    }
+
+    .card {
+        width: 100%;
+        border-radius: 0;
+
+        .card-image {
+            height: 305px;
+            background-color: $custom-gray;
+
+            img {
+                height: 100%;
+                object-fit: contain;
+            }
         }
+        
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 140px;
 
-        .swiper-slide {
-            .card {
-                width: 100%;
+            .tag {
+                font-weight: bold;
+                color: $indigo-500;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+            }
+            .card-title {
+                margin: 0;
+                margin-top: 15px;
+                font-size: 24px;
+                font-weight: bold;
+            }
 
-                .card-image {
-                    background-color: $custom-gray;
+            .btn {
+                width: max-content;
+                padding-left: 0;
+                font-size: 18px;
+                color: $black;
+                background-color: transparent;
+                border-color: transparent;
 
-                    img {
-                        height: 220px;
-                        object-fit: contain;
-                    }
-                }
-                
-                .card-body {
-                    .card-title {
-                        font-size: 24px;
-                        font-weight: bold;
-                    }
-
-                    .btn {
-                        padding-left: 0;
-                        font-size: 16px;
-                        color: $black;
-                        background-color: transparent;
-                        border-color: transparent;
-                    }
+                .icon {
+                    font-size: 24px;
                 }
             }
+        }
+    }
+
+    .swiper-projects {
+        .swiper-wrapper {
+            padding-top: 65px;
+            padding-bottom: 100px;
         }
 
         .swiper-pagination {

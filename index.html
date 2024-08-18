@@ -11,32 +11,15 @@
 </head>
 <body>
     <header>
-        <div class="bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><span><i class="bi bi-telegram"></i></span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><span><i class="bi bi-instagram"></i></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
         <nav class="navbar">
             <div class="container">
-                <a href="#" class="navbar-brand">Portfolio</a>
-                <ul class="nav-list">
+                <a href="#" class="navbar-brand brand">Portfolio Creator<span>.</span></a>
+                <ul class="nav-list align-items-center">
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link nav-call">Book a call <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a></li>
                 </ul>
             </div>
         </nav>
@@ -47,9 +30,10 @@
                 <div class="row align-items-center">
                     <div class="col-md-7">
                         <h1 class="title"><span>I develop<br />web solutions</span><br />that delight and<br />inspire visitors.</h1>
-                        <p class="text">Hello! I am Doniyor, a web developer located in Tashkent.<br />I develop web solutions for startups</p>
+                        <p class="text">Hi! I’m John, a product designer located in Berlin. I create<br />user-friendly interfaces for fast-growing startups.</p>
                         <div class="d-grid gap-2 d-md-block">
-                            <a href="#" class="btn btn-primary btn-book">Book a call</a>
+                            <a href="#" class="btn btn-book">Book a call</a>
+                            <a href="#" class="btn btn-cv">Download CV <span class="icon"><i class="bi bi-arrow-right"></i></span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -58,34 +42,48 @@
                 </div>
             </div>
         </section>
+        <section class="partners" id="partners">
+            <div class="container">
+                <h5 class="title">Trusted By</h5>
+                <div class="row row-cols-md-4">
+                    <div class="col"><img src="./assets/images/partner1.png" alt=""></div>
+                    <div class="col"><img src="./assets/images/partner2.png" alt=""></div>
+                    <div class="col"><img src="./assets/images/partner3.png" alt=""></div>
+                    <div class="col"><img src="./assets/images/partner4.png" alt=""></div>
+                </div>
+            </div>
+        </section>
         <section class="services" id="services">
             <div class="container">
                 <div class="section-header">
                     <div class="wrap text-center">
-                        <h4 class="title">Services</h4>
-                        <p class="subtitle">Coding solutions,<br />one website at a time.</p>
+                        <h2 class="title">Services</h2>
+                        <h3 class="subtitle">Coding solutions,<br />one website at a time.</h3>
                     </div>
                 </div>
                 <div class="row row-col-md-3">
                     <div class="col">
+                        <span class="icon"><img src="./assets/images/service1.svg" alt=""></span>
                         <p class="col-title">What can I do for you</p>
                         <p class="col-text">Lorem ipsum dolor, sit<br />amet consectetur adipisicing elit.<br />Reprehenderit, esse.</p>
                         <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Design Strategy</li>
+                            <li class="list-group-item">Web and Mobile App Design</li>
                             <li class="list-group-item">Front-end Development</li>
-                            <li class="list-group-item">Back-end Development</li>
-                            <li class="list-group-item">Telegram Bot Development</li>
                         </ul>
                     </div>
                     <div class="col">
+                        <span class="icon"><img src="./assets/images/service2.svg" alt=""></span>
                         <p class="col-title">Technologies I'm fluent in</p>
                         <p class="col-text">Lorem ipsum dolor, sit<br />amet consectetur adipisicing elit.<br />Reprehenderit, esse.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">HTML+CSS (SCSS)</li>
-                            <li class="list-group-item">PHP (Laravel)</li>
-                            <li class="list-group-item">JavaScript (ReactJS, NextJS, NodeJS)</li>
+                            <li class="list-group-item">Sketch</li>
+                            <li class="list-group-item">Webflow</li>
+                            <li class="list-group-item">Figma</li>
                         </ul>
                     </div>
                     <div class="col">
+                        <span class="icon"><img src="./assets/images/service3.svg" alt=""></span>
                         <p class="col-title">What you can expect</p>
                         <p class="col-text">Lorem ipsum dolor, sit<br />amet consectetur adipisicing elit.<br />Reprehenderit, esse.</p>
                         <ul class="list-group list-group-flush">
@@ -101,8 +99,8 @@
             <div class="container">
                 <div class="section-header">
                     <div class="wrap">
-                        <h4 class="title">Projects</h4>
-                        <p class="subtitle">Driving success online.<br />Our clients are living proof.</p>
+                        <h2 class="title">Projects</h2>
+                        <h3 class="subtitle">Driving success online.<br />Our projects are living proof.</h3>
                     </div>
                 </div>
                 <div class="swiper swiper-projects">
@@ -115,8 +113,9 @@
                                     <img src="./assets/images/no-image.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
+                                    <span class="tag">Tag</span>
                                     <h5 class="card-title">Card title</h5>
-                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span></a>
+                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -126,8 +125,9 @@
                                     <img src="./assets/images/no-image.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
+                                    <span class="tag">Tag</span>
                                     <h5 class="card-title">Card title</h5>
-                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span></a>
+                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -137,8 +137,9 @@
                                     <img src="./assets/images/no-image.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
+                                    <span class="tag">Tag</span>
                                     <h5 class="card-title">Card title</h5>
-                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span></a>
+                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -148,8 +149,9 @@
                                     <img src="./assets/images/no-image.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
+                                    <span class="tag">Tag</span>
                                     <h5 class="card-title">Card title</h5>
-                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span></a>
+                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -159,8 +161,9 @@
                                     <img src="./assets/images/no-image.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
+                                    <span class="tag">Tag</span>
                                     <h5 class="card-title">Card title</h5>
-                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span></a>
+                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -170,8 +173,9 @@
                                     <img src="./assets/images/no-image.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
+                                    <span class="tag">Tag</span>
                                     <h5 class="card-title">Card title</h5>
-                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span></a>
+                                    <a href="#" class="btn btn-primary">View Project <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -184,50 +188,105 @@
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="top">
+        <section class="blogs" id="blogs">
             <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-between">
-                    <div class="col">
-                        <a class="navbar-brand" href="#">Portfolio</a>
-                        <p class="text">
-                            Security as a topic has continued to rise in 
-                            popularity in the recent couple of years, and it 
-                            comes as a no surprise.
-                        </p>
-                        <h5 class="subtitle">Follow Us</h5>
-                        <div class="btn-group d-flex align-items-center" role="group">
-                            <a href="#" class="btn btn-link"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="btn btn-link"><i class="bi bi-telegram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <h5 class="subtitle">Services</h5>
-                        <div class="row row-cols-1 g-3 footer-info">
-                            <div class="col d-flex">
-                                <span class="icon"><i class="bi bi-pin-map-fill"></i></span>
-                                <small><a class="address-link" href="#">Melbourne Main Street VIC<br/>3000, Australia</a></small>
-                            </div>
-                            <div class="col d-flex">
-                                <span class="icon"><i class="bi bi-envelope-paper-fill"></i></span>
-                                <small><a href="mailto:vip.don4ik@gmail.com">vip.don4ik@gmail.com</a></small>
-                            </div>
-                            <div class="col d-flex">
-                                <span class="icon"><i class="bi bi-telephone-fill"></i></span>
-                                <small><a href="tel:+998909950503">+998 (90) 995-0503</a></small>
+                <div class="row">
+                    <div class="col-5">
+                        <div class="section-header">
+                            <div class="wrap">
+                                <h2 class="title">Blogs</h2>
+                                <h3 class="subtitle">Latest Blogs</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        
+                    <div class="col-7">
+                        <div class="row row-cols-1">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex"><span class="date">April 16, 2021</span>.<span class="time">6 mins</span></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Design tips for designers, that cover everything you need</h5>
+                                        <a href="#" class="btn">Read the article <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex"><span class="date">April 16, 2021</span>.<span class="time">6 mins</span></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">How to build rapport with your web design clients</h5>
+                                        <a href="#" class="btn">Read the article <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex"><span class="date">April 16, 2021</span>.<span class="time">6 mins</span></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Top 6 free website mockup tools 2021</h5>
+                                        <a href="#" class="btn">Read the article <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex"><span class="date">April 16, 2021</span>.<span class="time">6 mins</span></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Logo design trends to avoid in 2021</h5>
+                                        <a href="#" class="btn">Read the article <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="d-flex"><span class="date">April 16, 2021</span>.<span class="time">6 mins</span></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">22 best UI design tools</h5>
+                                        <a href="#" class="btn">Read the article <span class="icon"><i class="bi bi-arrow-right-short"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="copyright">
+        </section>
+        <section class="portfolio" id="portfolio">
             <div class="container">
-                <p>Copyright © 2020, Portfolio. All Right Reserved</p>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="section-header">
+                            <div class="wrap">
+                                <h2 class="title">Product Designer</h2>
+                                <h3 class="subtitle">That's me!</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="section-header">
+                <h3 class="subtitle">Ready to make something kickass?<br /><span>Let's get on a call.</span></h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="brand">Portfolio Creator.</a>
+                </div>
+                <div class="col-md-6"></div>
             </div>
         </div>
     </footer>

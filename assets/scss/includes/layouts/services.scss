@@ -3,6 +3,11 @@
         margin-top: 110px;
 
         .col {
+            .icon {
+                display: inline-block;
+                padding-bottom: 40px;
+            }
+
             .col-title {
                 font-size: 24px;
                 font-weight: bold;
@@ -16,12 +21,23 @@
             }
 
             .list-group {
-                list-style: square;
-
                 .list-group-item {
-                    padding-left: 0;
+                    position: relative;
+                    padding-left: 20;
+                    font-size: 16px;
                     font-weight: bold;
                     border: none;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 7px;
+                        height: 7px;
+                        background-color: $black;
+                    }
                 }
             }
         }
