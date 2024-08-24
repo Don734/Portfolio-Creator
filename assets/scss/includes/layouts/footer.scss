@@ -9,4 +9,37 @@ footer {
             color: $indigo;
         }
     }
+
+    .list-group {
+        .list-group-item {
+            background-color: transparent;
+            border: none;
+
+            .brand {
+                font-size: 20px;
+                color: $white;
+        
+                span {
+                    color: $danger;
+                }
+            }
+        
+            .link {
+                font-size: 17px;
+                color: $gray-700;
+            }
+        }
+    }
+
+    .footer-menu {
+        .list-group {
+            .list-group-item {
+                .nav-link {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: $white;
+                }
+            }
+        }
+    }
 }

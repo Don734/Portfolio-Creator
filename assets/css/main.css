@@ -11956,7 +11956,6 @@ header .navbar .nav-list .nav-item:last-of-type {
   position: relative;
   max-width: 512px;
   width: 100%;
-  height: 512px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -12174,6 +12173,12 @@ header .navbar .nav-list .nav-item:last-of-type {
   color: #de5c9d;
 }
 
+.portfolio .subtext {
+  max-width: 625px;
+  font-size: 22px;
+  color: #6c757d;
+}
+
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -12184,6 +12189,26 @@ footer .subtitle {
 }
 footer .subtitle span {
   color: #6610f2;
+}
+footer .list-group .list-group-item {
+  background-color: transparent;
+  border: none;
+}
+footer .list-group .list-group-item .brand {
+  font-size: 20px;
+  color: #fff;
+}
+footer .list-group .list-group-item .brand span {
+  color: #dc3545;
+}
+footer .list-group .list-group-item .link {
+  font-size: 17px;
+  color: #495057;
+}
+footer .footer-menu .list-group .list-group-item .nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,8 +9,16 @@ function projectSlider() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 20,
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            },
+            992: {
+                slidesPerView: 3,
+            },
+        },
         clickable: true,
         renderBullet: function (index, className) {
             return '<span class="' + className + '">' + (index + 1) + "</span>";
