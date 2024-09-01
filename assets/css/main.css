@@ -12385,6 +12385,34 @@ header .menu-btn.active span:before {
   left: 0;
 }
 
+.faq {
+  margin-bottom: -1px;
+  background-color: #000;
+}
+.faq .section-header .title {
+  color: #fd7e14;
+}
+.faq .section-header .subtitle {
+  color: #fff;
+}
+.faq .accordion .accordion-item {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+}
+.faq .accordion .accordion-item .accordion-button {
+  padding-bottom: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+}
+.faq .accordion .accordion-item .accordion-button::after {
+  color: #fff;
+}
+
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
